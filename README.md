@@ -25,7 +25,7 @@ RTL Design & Verification Engineer specializing in **Verilog RTL design**, **Sys
 | Project | Type | Highlights | Tools |
 |---|---|---|---|
 | **AXI Interconnect Verification (2 Master – 3 Slave)** | UVM Verification | Multi-FIFO scoreboard, per-ID transaction tracking, address-decode checks, cross coverage of burst type/length/size, SVA; 100% functional and code coverage, zero mismatches | SystemVerilog, UVM, SVA, QuestaSim |
-| **APB Interface with Master SPI Core** | UVM Verification | UVM agent and scoreboard, RAL model with front-door/back-door access, constrained-random tests across all four SPI modes; 100% functional coverage, 100% assertion pass rate | SystemVerilog, UVM, RAL, SVA, VCS, Verdi |
+| **[APB Interface with Master SPI Core](https://github.com/Dhanush30-DV/APB-SPI-UVM-Verification)** | UVM Verification | Active APB and SPI agents, virtual sequencer, scoreboard checking PWDATA↔MOSI and PRDATA↔MISO, sequences for all four SPI modes (CPOL/CPHA) in LSB- and MSB-first order, APB protocol assertions; 95.45% functional coverage, 90.21% line coverage | SystemVerilog, UVM, VCS, Verdi, URG |
 | **Dual-Port RAM Verification** | SystemVerilog Verification | Layered class-based testbench, self-checking scoreboard with reference model, same-address collision cases; 100% functional and code coverage | SystemVerilog, SVA, VCS, Verdi |
 | **[APB Interface with Master SPI Core](https://github.com/Dhanush30-DV/APB-SPI-Master-RTL-Design)** | RTL Design | FSM-based controller, APB slave interface, programmable baud-rate generator (CPOL/CPHA), full-duplex shift-register datapath, transfer-complete interrupt; lint-clean RTL (0 errors, 0 latches); synthesized with timing met at 50 MHz | Verilog, VC SpyGlass, Design Compiler, VCS, Verdi |
 
