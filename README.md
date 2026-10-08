@@ -1,1 +1,61 @@
-RTL Design & Verification Engineer with hands-on training across the complete ASIC flow — from RTL coding in Verilog/SystemVerilog to UVM-based verification with RAL, SVA, and constrained-random techniques. Experienced in designing AMBA APB and SPI protocol logic, achieving 100% functional and code coverage using industry-standard EDA tools like Synopsys VCS, Verdi, and SpyGlass. Also trained in Static Timing Analysis (STA) and CMOS fundamentals. Passionate about building robust, sign-off-ready RTL designs and verification environments, and looking to grow as a Design/Verification Engineer in the semiconductor industry.
+<h1 align="center">Dhanush</h1>
+<h3 align="center">RTL Design &amp; Verification Engineer</h3>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/dhanush-71b36841b"><img src="https://img.shields.io/badge/LinkedIn-Dhanush-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:dhanushraj0703@gmail.com"><img src="https://img.shields.io/badge/Email-dhanushraj0703%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"></a>
+  <img src="https://img.shields.io/badge/Location-Bangalore%2C%20India-555555?style=flat" alt="Bangalore, India">
+</p>
+
+---
+
+## About
+
+RTL Design & Verification Engineer specializing in **Verilog RTL design**, **SystemVerilog**, **UVM**, **SVA** and **coverage-driven verification**, trained across the full ASIC flow at Maven Silicon.
+
+- Designed an **AMBA APB-to-SPI master core** in Verilog and delivered lint-clean RTL with SpyGlass.
+- Built a **UVM testbench with a multi-FIFO scoreboard** for a **2-master, 3-slave AXI interconnect**.
+- Verified the APB-to-SPI core with a **UVM RAL model**, and verified a **dual-port RAM** with a SystemVerilog layered testbench.
+- Reached **100% functional coverage** on every verification project using Synopsys VCS, Verdi, SpyGlass and QuestaSim.
+
+---
+
+## Projects
+
+| Project | Type | Highlights | Tools |
+|---|---|---|---|
+| **AXI Interconnect Verification (2 Master – 3 Slave)** | UVM Verification | Multi-FIFO scoreboard, per-ID transaction tracking, address-decode checks, cross coverage of burst type/length/size, SVA; 100% functional and code coverage, zero mismatches | SystemVerilog, UVM, SVA, QuestaSim |
+| **APB Interface with Master SPI Core** | UVM Verification | UVM agent and scoreboard, RAL model with front-door/back-door access, constrained-random tests across all four SPI modes; 100% functional coverage, 100% assertion pass rate | SystemVerilog, UVM, RAL, SVA, VCS, Verdi |
+| **Dual-Port RAM Verification** | SystemVerilog Verification | Layered class-based testbench, self-checking scoreboard with reference model, same-address collision cases; 100% functional and code coverage | SystemVerilog, SVA, VCS, Verdi |
+| **APB Interface with Master SPI Core** | RTL Design | FSM-based controller, APB slave interface, programmable baud-rate generator (CPOL/CPHA), full-duplex shift-register datapath, transfer-complete interrupt; lint-clean RTL | Verilog, VCS, Verdi, SpyGlass |
+
+---
+
+## Technical Skills
+
+| Area | Skills |
+|---|---|
+| **Languages** | SystemVerilog, Verilog |
+| **Verification Methodology** | UVM (Universal Verification Methodology), Register Abstraction Layer (RAL), Constrained-Random Verification (CRV), SystemVerilog Assertions (SVA), Functional Coverage, Code Coverage |
+| **Design & Timing** | RTL Linting, Synthesis, Static Timing Analysis (STA) |
+| **Protocols** | AMBA AXI (Multi-Master/Multi-Slave Interconnect), AMBA APB, SPI (Serial Peripheral Interface) |
+| **EDA Tools** | Synopsys VCS, Verdi, Synopsys SpyGlass, QuestaSim, Xilinx Vivado |
+| **VLSI Design Fundamentals** | Digital Electronics & Logic Design, CMOS & Semiconductor Basics |
+| **Scripting & Platforms** | Linux (command line), GitHub |
+
+---
+
+## Training
+
+**Advanced VLSI Design & Verification — Maven Silicon Softech Pvt. Ltd., Bangalore**
+- Full ASIC flow, from RTL coding to UVM verification closure, including multi-agent SoC-level testbenches.
+- Synthesizable Verilog RTL for AMBA APB, AXI and SPI, checked with RTL lint; SystemVerilog/UVM testbenches with CRV, coverage and SVA.
+- Static Timing Analysis: setup/hold checks, timing report analysis and timing closure in the ASIC/SoC sign-off flow.
+
+## Education
+
+**Bachelor of Engineering, Electronics & Communication Engineering** — AJ Institute of Engineering and Technology, Mangalore · CGPA 7.9/10 · 2025
+
+---
+
+<p align="center"><i>Open to RTL Design and Design Verification roles.</i></p>
