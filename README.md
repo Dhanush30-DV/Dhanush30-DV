@@ -14,9 +14,9 @@
 RTL Design & Verification Engineer specializing in **Verilog RTL design**, **SystemVerilog**, **UVM**, **SVA** and **coverage-driven verification**, trained across the full ASIC flow at Maven Silicon.
 
 - Designed an **AMBA APB-to-SPI master core** in Verilog and delivered lint-clean RTL with SpyGlass.
-- Built a **UVM testbench with a multi-FIFO scoreboard** for a **2-master, 3-slave AXI interconnect**.
-- Verified the APB-to-SPI core with a **UVM RAL model**, and verified a **dual-port RAM** with a SystemVerilog layered testbench.
-- Closed functional coverage with covergroups: **100%** on the dual-port RAM and **95.45%** on the APB-to-SPI UVM environment, using Synopsys VCS, Verdi, URG and QuestaSim.
+- Built a **UVM testbench with a multi-FIFO scoreboard** for a **2-master, 3-slave AXI interconnect**, covering parallel traffic and round-robin arbitration with 23 SVA properties.
+- Verified the APB-to-SPI core with a **two-agent UVM environment** (APB + SPI) across all four SPI modes, and verified a **dual-port RAM** with a SystemVerilog layered testbench.
+- Closed functional coverage with covergroups: **96.52%** on the AXI interconnect, **95.45%** on the APB-to-SPI UVM environment and **100%** on the dual-port RAM, using Synopsys VCS, Verdi, URG and QuestaSim.
 
 ---
 
